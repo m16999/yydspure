@@ -14,23 +14,23 @@
 # 领京豆额外奖励
 23 1,12,22 * * * node /scripts/jd_bean_home.js >> /scripts/logs/jd_bean_home.log 2>&1
 # 京豆详情统计
-<未知> node /scripts/jd_bean_info.js >> /scripts/logs/jd_bean_info.log 2>&1
+7 7 7 7 7 node /scripts/jd_bean_info.js >> /scripts/logs/jd_bean_info.log 2>&1
 # 京东多合一签到 = =,=  * * *,-=,=,-=://..////-/.
 5 0 * * * node /scripts/jd_bean_sign.js >> /scripts/logs/jd_bean_sign.log 2>&1
 # 美丽研究院
 20 7,12,19 * * * node /scripts/jd_beauty.js >> /scripts/logs/jd_beauty.log 2>&1
 # 美丽研究院--兑换
 20 12 * * * node /scripts/jd_beauty_ex.js >> /scripts/logs/jd_beauty_ex.log 2>&1
-# <未知>
+# <未 知>
 10 9,11,15,21 * * * node /scripts/jd_beauty_plant.py >> /scripts/logs/jd_beauty_plant.log 2>&1
 # 东东超市兑换奖品
 59 23 * * * node /scripts/jd_blueCoin.js >> /scripts/logs/jd_blueCoin.log 2>&1
-# <未知>
+# <未 知>
 23 10 * * * node /scripts/jd_btdraw.py >> /scripts/logs/jd_btdraw.log 2>&1
-# <未知>
+# <未 知>
 10点开始截止到这个月28号，建议 5 0 10 * node /scripts/jd_btfree.py >> /scripts/logs/jd_btfree.log 2>&1
 # 店铺开卡
-<未知> node /scripts/jd_card.js >> /scripts/logs/jd_card.log 2>&1
+7 7 7 7 7 node /scripts/jd_card.js >> /scripts/logs/jd_card.log 2>&1
 # 签到领现金_Panda
 2 0-23/4 * * * node /scripts/jd_cash_Mod_Panda.js >> /scripts/logs/jd_cash_Mod_Panda.log 2>&1
 # 领券中心签到
@@ -42,7 +42,7 @@
 # 京东超级盒子
 24 3,13 * * * node /scripts/jd_cjhz.js >> /scripts/logs/jd_cjhz.log 2>&1
 # 清空购物车
-<未知> node /scripts/jd_cleancart.js >> /scripts/logs/jd_cleancart.log 2>&1
+7 7 7 7 7 node /scripts/jd_cleancart.js >> /scripts/logs/jd_cleancart.log 2>&1
 # 摇京豆
 5 0,23 * * * node /scripts/jd_club_lottery.js >> /scripts/logs/jd_club_lottery.log 2>&1
 # 内容鉴赏官
@@ -69,8 +69,8 @@
 5 6-18/6 * * * node /scripts/jd_fruit.js >> /scripts/logs/jd_fruit.log 2>&1
 # 东东农场好友删减奖励
 10 5,17 * * * node /scripts/jd_fruit_friend.js >> /scripts/logs/jd_fruit_friend.log 2>&1
-# <未知>
-<未知> node /scripts/jd_fruit_plant.ts >> /scripts/logs/jd_fruit_plant.log 2>&1
+# <未 知>
+7 7 7 7 7 node /scripts/jd_fruit_plant.ts >> /scripts/logs/jd_fruit_plant.log 2>&1
 # 获取互助码
 20 13 * * 6 node /scripts/jd_get_share_code.js >> /scripts/logs/jd_get_share_code.log 2>&1
 # 4月京东国际联合活动
@@ -82,7 +82,7 @@
 # 早起福利
 30 6 * * * node /scripts/jd_goodMorning.js >> /scripts/logs/jd_goodMorning.log 2>&1
 # 清空购物车_Panda
-<未知> node /scripts/jd_gua_cleancart_Panda.js >> /scripts/logs/jd_gua_cleancart_Panda.log 2>&1
+7 7 7 7 7 node /scripts/jd_gua_cleancart_Panda.js >> /scripts/logs/jd_gua_cleancart_Panda.log 2>&1
 # 半点京豆雨
 30 16-23/1 * * * node /scripts/jd_half_redrain.js >> /scripts/logs/jd_half_redrain.log 2>&1
 # 东东健康社区
@@ -91,9 +91,9 @@
 5-45/20 * * * * node /scripts/jd_health_collect.js >> /scripts/logs/jd_health_collect.log 2>&1
 # 东东健康社区内部互助
 5 4,14 * * * node /scripts/jd_health_help.js >> /scripts/logs/jd_health_help.log 2>&1
-# <未知>
+# <未 知>
 50 * * * * node /scripts/jd_identical.py >> /scripts/logs/jd_identical.log 2>&1
-# <未知>
+# <未 知>
 50 * * * * node /scripts/jd_identicalnew.py >> /scripts/logs/jd_identicalnew.log 2>&1
 # 京洞察问卷通知
 35 11 * * * node /scripts/jd_insight.js >> /scripts/logs/jd_insight.log 2>&1
@@ -104,26 +104,26 @@
 # 见缝插针
 15 10 * * * node /scripts/jd_jfcz.js >> /scripts/logs/jd_jfcz.log 2>&1
 # 领金贴
-<未知> node /scripts/jd_jin_tie.js >> /scripts/logs/jd_jin_tie.log 2>&1
-# <未知>
+7 7 7 7 7 node /scripts/jd_jin_tie.js >> /scripts/logs/jd_jin_tie.log 2>&1
+# <未 知>
 6 10 * * * node /scripts/jd_jingBeanReceive.js >> /scripts/logs/jd_jingBeanReceive.log 2>&1
-# <未知>
+# <未 知>
 3 0 0 * * node /scripts/jd_joy_joy_reward.ts >> /scripts/logs/jd_joy_joy_reward.log 2>&1
 # 汪汪乐园养joy
 20 0-23/3 * * * node /scripts/jd_joy_park.js >> /scripts/logs/jd_joy_park.log 2>&1
 # 汪汪乐园养joy
 20 0-23/3 * * * node /scripts/jd_joy_park_Mod.js >> /scripts/logs/jd_joy_park_Mod.log 2>&1
-# <未知>
+# <未 知>
 30 0 * * * node /scripts/jd_joy_park_run.ts >> /scripts/logs/jd_joy_park_run.log 2>&1
 # 汪汪乐园每日任务
 0 1,7,20 * * * node /scripts/jd_joy_park_task.js >> /scripts/logs/jd_joy_park_task.log 2>&1
 # 汪汪乐园每日任务
 0 0,7,9,17,20 * * * node /scripts/jd_joy_park_task_Mod.js >> /scripts/logs/jd_joy_park_task_Mod.log 2>&1
-# <未知>
+# <未 知>
 2 0 0 * * node /scripts/jd_joy_run_reward.ts >> /scripts/logs/jd_joy_run_reward.log 2>&1
 # 京东金融每周领取权益活动
 10 17 6 12 * node /scripts/jd_jr_draw.js >> /scripts/logs/jd_jr_draw.log 2>&1
-# <未知>
+# <未 知>
 10点开始截止到这个月28号，建议 5 0 10 * node /scripts/jd_jrmx.py >> /scripts/logs/jd_jrmx.log 2>&1
 # 京喜工厂商品列表详情
 10 10 * * * node /scripts/jd_jxgckc.js >> /scripts/logs/jd_jxgckc.log 2>&1
@@ -132,16 +132,16 @@
 # 京喜牧场
 20 * * * * node /scripts/jd_jxmc.js >> /scripts/logs/jd_jxmc.log 2>&1
 # 京东直播
-<未知> node /scripts/jd_live.js >> /scripts/logs/jd_live.log 2>&1
+7 7 7 7 7 node /scripts/jd_live.js >> /scripts/logs/jd_live.log 2>&1
 # 超级直播间红包雨
 0,30 0-23/1 * * * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1
 # 领京豆
-<未知> node /scripts/jd_ljd_xh.js >> /scripts/logs/jd_ljd_xh.log 2>&1
+7 7 7 7 7 node /scripts/jd_ljd_xh.js >> /scripts/logs/jd_ljd_xh.log 2>&1
 # 京东通天塔--签到
 3 1,11 * * * node /scripts/jd_m_sign.js >> /scripts/logs/jd_m_sign.log 2>&1
 # 4月蒙牛春日音乐节抽奖机
 31 14 9-21/3 4 * node /scripts/jd_mncryyj.js >> /scripts/logs/jd_mncryyj.log 2>&1
-# <未知>
+# <未 知>
 10 9,12,15 * * * node /scripts/jd_mofang.ts >> /scripts/logs/jd_mofang.log 2>&1
 # 京东摇钱树
 3 0-23/2 * * * node /scripts/jd_moneyTree.js >> /scripts/logs/jd_moneyTree.log 2>&1
@@ -151,7 +151,7 @@
 15 6,7 * * * node /scripts/jd_morningSc.js >> /scripts/logs/jd_morningSc.log 2>&1
 # 头文字j助力
 16 16,17,18 * * * node /scripts/jd_mpdz_car_help.js >> /scripts/logs/jd_mpdz_car_help.log 2>&1
-# <未知>
+# <未 知>
 16 16,17,18 * * * node /scripts/jd_mpdz_car_task.js >> /scripts/logs/jd_mpdz_car_task.log 2>&1
 # 牛牛福利
 1 0,19,23 * * * node /scripts/jd_nnfls.js >> /scripts/logs/jd_nnfls.log 2>&1
@@ -173,8 +173,8 @@
 23 8,9 * * * node /scripts/jd_productZ4Brand.js >> /scripts/logs/jd_productZ4Brand.log 2>&1
 # QQ星系牧场
 1 0-23/2 * * * node /scripts/jd_qqxing.js >> /scripts/logs/jd_qqxing.log 2>&1
-# <未知>
-<未知> node /scripts/jd_redpacketinfo.py >> /scripts/logs/jd_redpacketinfo.log 2>&1
+# <未 知>
+7 7 7 7 7 node /scripts/jd_redpacketinfo.py >> /scripts/logs/jd_redpacketinfo.log 2>&1
 # 整点京豆雨
 0 * * * * node /scripts/jd_redrain.js >> /scripts/logs/jd_redrain.log 2>&1
 # 半点京豆雨
@@ -186,11 +186,11 @@
 # 闪购签到有礼
 10 10 * * * node /scripts/jd_shangou.js >> /scripts/logs/jd_shangou.log 2>&1
 # 分享有礼
-<未知> node /scripts/jd_share.js >> /scripts/logs/jd_share.log 2>&1
+7 7 7 7 7 node /scripts/jd_share.js >> /scripts/logs/jd_share.log 2>&1
 # 店铺签到
 0 0 * * * node /scripts/jd_shop_sign.js >> /scripts/logs/jd_shop_sign.log 2>&1
 # 极速免费签到
-<未知> node /scripts/jd_signFree.js >> /scripts/logs/jd_signFree.log 2>&1
+7 7 7 7 7 node /scripts/jd_signFree.js >> /scripts/logs/jd_signFree.log 2>&1
 # 京东签到翻牌
 10 8 * * * node /scripts/jd_sign_graphics.js >> /scripts/logs/jd_sign_graphics.log 2>&1
 # 京东签到翻牌
@@ -212,14 +212,14 @@
 # 京东生鲜每日抽奖
 10 7 * * * node /scripts/jd_sxLottery.js >> /scripts/logs/jd_sxLottery.log 2>&1
 # 探味奇遇记
-<未知> node /scripts/jd_tanwei.js >> /scripts/logs/jd_tanwei.log 2>&1
+7 7 7 7 7 node /scripts/jd_tanwei.js >> /scripts/logs/jd_tanwei.log 2>&1
 # 京东试用
-<未知> node /scripts/jd_try.js >> /scripts/logs/jd_try.log 2>&1
+7 7 7 7 7 node /scripts/jd_try.js >> /scripts/logs/jd_try.log 2>&1
 # 京东试用待领取通知
 22 15 * * * node /scripts/jd_try_notify.js >> /scripts/logs/jd_try_notify.log 2>&1
-# <未知>
+# <未 知>
 20 20 * * * node /scripts/jd_try_notify.py >> /scripts/logs/jd_try_notify.log 2>&1
-# <未知>
+# <未 知>
 35 11,16 * * * node /scripts/jd_txstockex.js >> /scripts/logs/jd_txstockex.log 2>&1
 # 极速版-推推赚大钱
 0 1 * * * node /scripts/jd_tyt.js >> /scripts/logs/jd_tyt.log 2>&1
@@ -228,22 +228,22 @@
 # 取关所有主播
 55 6 * * * node /scripts/jd_unsubscriLive.js >> /scripts/logs/jd_unsubscriLive.log 2>&1
 # 批量取关店铺和商品
-<未知> node /scripts/jd_unsubscribe_xh.js >> /scripts/logs/jd_unsubscribe_xh.log 2>&1
-# <未知>
+7 7 7 7 7 node /scripts/jd_unsubscribe_xh.js >> /scripts/logs/jd_unsubscribe_xh.log 2>&1
+# <未 知>
 8 0 * * * node /scripts/jd_wechat_sign.ts >> /scripts/logs/jd_wechat_sign.log 2>&1
-# <未知>
+# <未 知>
 30 9 * * * node /scripts/jd_wechat_zz.ts >> /scripts/logs/jd_wechat_zz.log 2>&1
 # 众筹许愿池
 40 0,2 * * * node /scripts/jd_wish.js >> /scripts/logs/jd_wish.log 2>&1
 # 微信签到领红包
-<未知> node /scripts/jd_wq_wxsign.js >> /scripts/logs/jd_wq_wxsign.log 2>&1
+7 7 7 7 7 node /scripts/jd_wq_wxsign.js >> /scripts/logs/jd_wq_wxsign.log 2>&1
 # 玩一玩成就
 0 8 * * * node /scripts/jd_wyw.js >> /scripts/logs/jd_wyw.log 2>&1
 # 小鸽有礼
 3 0,7 * * * node /scripts/jd_xgyl_wx.js >> /scripts/logs/jd_xgyl_wx.log 2>&1
 # 4月小天才联合活动
 31 16 16-30/3 4 * node /scripts/jd_xtclh.js >> /scripts/logs/jd_xtclh.log 2>&1
-# <未知>
+# <未 知>
 15,30,45 0 * * * node /scripts/jd_zjd.ts >> /scripts/logs/jd_zjd.log 2>&1
 # 京喜购物返红包助力
 44 */6 * * * node /scripts/jx_aid_cashback.js >> /scripts/logs/jx_aid_cashback.log 2>&1
